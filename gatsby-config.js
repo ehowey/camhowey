@@ -1,21 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: `Catalyst Basic`,
-    description: `Speed up your GatsbyJS development workflow. Designed as a set of opinionated and advanced themes and starters using MDX and Theme-UI. Incorporates gatsby-theme-catalyst-core, gatsby-theme-catalyst-header-basic, and gatsby-theme-catalyst-footer-basic.`,
-    keywords: [`gatsby`, `theme`, `react`],
-    author: `Eric Howey`,
-    twitter: `@erchwy`,
-    siteUrl: `https://gatsby-starter-catalyst-basic.netlify.com`, //Change to you site address, required for sitemap.xml and robots.txt file among other things
+    title: `Cam Howey`,
+    description: `Merry Christmas Dad!`,
+    keywords: [`gratitude`, `writer`, `giving`, `Cam Howey`],
+    author: `Cam Howey`,
+    twitter: ``,
+    siteUrl: `https://www.camhowey.com`, //Change to you site address, required for sitemap.xml and robots.txt file among other things
     menuLinks: [
       {
         name: `Page 1`,
         link: `/page-1`,
         type: `internal`, //internal or anchor
-      },
-      {
-        name: `Anchor 1`,
-        link: `#anchor-1`,
-        type: `anchor`, //internal or anchor
       },
       {
         name: `Page 2`,
@@ -29,16 +24,6 @@ module.exports = {
         link: `eric@erichowey.dev`,
         location: `footer`, //Options are "all", "header", "footer"
       },
-      {
-        name: `Github`,
-        link: `https://www.github.com/ehowey`,
-        location: `all`, //Options are "all", "header", "footer"
-      },
-      {
-        name: `Twitter`,
-        link: `https://www.twitter.com/erchwy`,
-        location: `header`, //Options are "all", "header", "footer"
-      },
     ],
   },
   plugins: [
@@ -46,7 +31,7 @@ module.exports = {
       resolve: `gatsby-theme-catalyst-core`,
       options: {
         useHero: true,
-        useStickyHeader: true,
+        displaySiteLogo: false,
       },
     },
     `gatsby-theme-catalyst-header-basic`,

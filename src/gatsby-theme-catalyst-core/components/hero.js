@@ -13,11 +13,12 @@ const HeaderHero = () => {
         textAlign: "center",
       }}
     >
-      <Styled.h1>Cat-a-lyst = Gatsby + MDX + ThemeUI</Styled.h1>
+      <Styled.h1>Merry Christmas Dad!</Styled.h1>
       <Styled.p>
-        Hero area toggled via "useHero" setting in `gatsby-theme-catalyst-core`.
-        <br />
-        Edit this in `src/gatsby-theme-catalyst-core/components/hero.js`.
+        I figured with all of your work on gratitude, health and giving you
+        needed a better way to share all of that important information with the
+        world! Hopefully we can work together to make this an easy to use place
+        for you to post some of this information for everyone to see!
       </Styled.p>
     </section>
   )
